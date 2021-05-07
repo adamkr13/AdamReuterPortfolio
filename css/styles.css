@@ -56,12 +56,18 @@ p {
   background-color: #472207;
   position: fixed;
   width: 100%;
+  opacity: .8;  
 }
 .navbar-light .navbar-brand {
   color: #c08448;
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 0 0 0 50px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #f1c795;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -134,7 +140,7 @@ p {
     padding-left: 1.5rem;
   }
   #last-nav-link {
-    padding-right: 0.5rem;
+    padding-right: 5rem;
     padding-left: 1.5rem;
   }
 }
