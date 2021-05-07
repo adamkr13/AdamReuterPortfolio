@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#chess {
+  background-image: url("../assets/ChessBoard.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #472207;
+  padding: 0.3% 4%;
+}
+.navbar-light .navbar-brand {
+  color: #c08448;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #c08448;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F1C795;
+  }
+
+.nav-item {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  #last-nav-link {
+      padding-right: 0.5rem;
+      padding-left: 1.5rem;      
+  }
+}
