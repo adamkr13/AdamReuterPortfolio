@@ -154,10 +154,6 @@ height: auto;
     max-height: 600px; 
 }
 
-.about-div {
-    padding-top: 3em;
-}
-
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
