@@ -46,7 +46,7 @@ h3 {
 
 .container-fluid {
   padding: 0;
-  margin: 0;
+  margin: 0;  
 }
 
 #chess {
@@ -142,6 +142,7 @@ h3 {
 .row {
     text-align: center;
     padding-bottom: 2em;
+    margin: 0;
 }
 
 .img-fluid {
@@ -155,26 +156,11 @@ height: auto;
 }
 
 #skills .row {
-  padding: 0 2em;
+  padding: 0 3em 2em 3em;
 }
 
-#skills .row .multibox {
-  padding-left: 0;
-  padding-right: 0;
-}
-.leftbox {
-  text-align: left; 
-  padding: 0; 
-}
-
-.rightbox {
-  text-align: right;
-  padding: 0;
-}
-
-#github {
-  background-color: #f1c795;
-  border-radius: 100%;  
+.row-item {
+  padding: 2em;
 }
 
 @media (min-width: 992px) {
