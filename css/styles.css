@@ -23,10 +23,6 @@ h3 {
   font-size: 2.5rem;
 }
 
-p {
-  color: #8f8f8f;
-}
-
 .light hr {
   border: 6px dotted #472207;
   border-bottom: none;
@@ -35,6 +31,10 @@ p {
 }
 .light p {
     color: #472207;
+}
+
+.dark p {
+  color: #f1c795;
 }
 
 .dark hr {
@@ -152,6 +152,29 @@ height: auto;
 #headshot {
     border-radius: 100%;   
     max-height: 600px; 
+}
+
+#skills .row {
+  padding: 0 2em;
+}
+
+#skills .row .multibox {
+  padding-left: 0;
+  padding-right: 0;
+}
+.leftbox {
+  text-align: left; 
+  padding: 0; 
+}
+
+.rightbox {
+  text-align: right;
+  padding: 0;
+}
+
+#github {
+  background-color: #f1c795;
+  border-radius: 100%;  
 }
 
 @media (min-width: 992px) {
