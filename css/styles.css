@@ -24,23 +24,13 @@ h3 {
 }
 
 hr {
-  border: 6px dotted #472207;
-  border-bottom: none;
-  width: 150px;
-  margin: 20px auto;
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-  display: block;
-  unicode-bidi: isolate;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  opacity: 1;
+  border: 6px dotted;
 }
 
 .light hr {
   border: 6px dotted #472207;
+  background-color: transparent;
   border-bottom: none;
   width: 150px;
   margin: 20px auto;
@@ -55,6 +45,7 @@ hr {
 
 .dark hr {
   border: 6px dotted #f1c795;
+  background-color: transparent;
   border-bottom: none;
   width: 150px;
   margin: 20px auto;
