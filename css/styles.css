@@ -23,6 +23,22 @@ h3 {
   font-size: 2.5rem;
 }
 
+hr {
+  border: 6px dotted #472207;
+  border-bottom: none;
+  width: 150px;
+  margin: 20px auto;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
 .light hr {
   border: 6px dotted #472207;
   border-bottom: none;
@@ -30,7 +46,7 @@ h3 {
   margin: 20px auto;
 }
 .light p {
-    color: #472207;
+  color: #472207;
 }
 
 .dark p {
@@ -46,7 +62,7 @@ h3 {
 
 .container-fluid {
   padding: 0;
-  margin: 0;  
+  margin: 0;
 }
 
 #chess {
@@ -59,7 +75,7 @@ h3 {
   background-color: #472207;
   position: fixed;
   width: 100%;
-  opacity: .8;  
+  opacity: 0.8;
 }
 .navbar-light .navbar-brand {
   color: #c08448;
@@ -70,7 +86,7 @@ h3 {
 }
 
 .navbar-light .navbar-brand:hover {
-    color: #f1c795;
+  color: #f1c795;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -88,7 +104,7 @@ h3 {
 }
 
 #nav-container {
-    z-index: 1;
+  z-index: 1;
 }
 
 /* Set the border color */
@@ -123,7 +139,7 @@ h3 {
 }
 
 .dark {
-  background-image: url("../assets/darkWoodSeamless.jpg");  
+  background-image: url("../assets/darkWoodSeamless.jpg");
   background-size: cover;
   color: #f1c795;
 }
@@ -140,19 +156,19 @@ h3 {
 }
 
 .row {
-    text-align: center;
-    padding-bottom: 2em;
-    margin: 0;
+  text-align: center;
+  padding-bottom: 2em;
+  margin: 0;
 }
 
 .img-fluid {
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 #headshot {
-    border-radius: 100%;   
-    max-height: 600px; 
+  border-radius: 100%;
+  max-height: 600px;
 }
 
 #skills .row {
