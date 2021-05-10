@@ -92,6 +92,7 @@ hr {
   font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
+  margin-right: 50px;
 }
 
 #nav-container {
@@ -102,11 +103,12 @@ hr {
 
 .custom-toggler.navbar-toggler {
   border-color: #f1c795;
+  margin-right: 50px;
 }
 /* Setting the stroke to #c08448 using rgb values (192, 132, 72, 1) */
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(192, 132, 72, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(192, 132, 72, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");  
 }
 
 #chess::before {
@@ -279,18 +281,4 @@ hr {
   color: #c08448;
   font-size: 1.5rem;
   padding: 1em 0 0.5em 0;
-}
-
-
-
-
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-  }
-  #last-nav-link {
-    padding-right: 5rem;
-    padding-left: 1.5rem;
-  }
 }
