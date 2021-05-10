@@ -144,7 +144,7 @@ hr {
 }
 
 .header {
-  padding: 2em 0;
+  padding-top: 2em;
   margin: 0px;
 }
 
@@ -209,6 +209,10 @@ hr {
   font-family: "Montserrat", sans-serif;
 }
 
+#contact .row {
+  margin: 0 6em;
+}
+
 #contact .btn {
   color: #472207;
   background-color: #c08448;
@@ -216,7 +220,7 @@ hr {
   border-color: #f1c795;
   border-width: 2px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 #contact .btn:hover {
@@ -261,7 +265,7 @@ hr {
   font-size: 1.5rem;
   border-color: #c08448;
   border-width: 2px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -280,5 +284,5 @@ hr {
   font-family: "Berkshire Swash", cursive;  
   color: #c08448;
   font-size: 1.5rem;
-  padding: 1em 0 0.5em 0;
+  padding: 0em 0 0.5em 0;
 }
