@@ -195,7 +195,74 @@ hr {
   border-color: #f1c795;
   border-width: 2px;
   margin: 1em 2em;
+  font-family: "Montserrat";
 }
+
+#contact .btn {
+  color: #472207;
+  background-color: #c08448;
+  font-size: 1.5rem;
+  border-color: #f1c795;
+  border-width: 2px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.copyright {
+  font-family: "Berkshire Swash", cursive;
+  background-image: url("../assets/SmoothWoodSeamlessTexture867.jpg");
+  background-size: cover;
+  color: #c08448;
+  font-size: 1.5rem;
+  padding: 1em 0 0.5em 0;
+}
+
+.contact-form {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../assets/SmoothWoodSeamlessTexture867.jpg");
+  background-size: cover;
+  color: #c08448;
+  font-size: 1.5rem;
+  padding: 1em 0 0.5em 0;
+}
+
+.form-group {
+  padding: 1em;
+}
+
+.form-width {
+  width: 100%;
+}
+
+#contact-form .btn {
+  color: #472207;
+  background-color: transparent;
+  font-size: 1.5rem;
+  border-color: #c08448;
+  border-width: 2px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+#contact-form .btn:hover {
+  color: #f1c795;
+  background-color: transparent;
+  font-size: 1.5rem;
+  background-color: #c08448;
+  border-color: #472207;
+  border-width: 2px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.copyright-contact {
+  font-family: "Berkshire Swash", cursive;  
+  color: #c08448;
+  font-size: 1.5rem;
+  padding: 1em 0 0.5em 0;
+}
+
+
 
 
 @media (min-width: 992px) {
