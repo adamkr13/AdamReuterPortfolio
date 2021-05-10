@@ -70,7 +70,7 @@ hr {
 }
 .navbar-light .navbar-brand {
   color: #c08448;
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
   padding: 0 0 0 50px;
@@ -89,7 +89,7 @@ hr {
 }
 
 .nav-item {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -195,7 +195,16 @@ hr {
   border-color: #f1c795;
   border-width: 2px;
   margin: 1em 2em;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .btn:hover {
+  background-color: #f1c795;
+  color: #472207;
+  border-color: #472207;
+  border-width: 2px;
+  margin: 1em 2em;
+  font-family: "Montserrat", sans-serif;
 }
 
 #contact .btn {
@@ -204,7 +213,17 @@ hr {
   font-size: 1.5rem;
   border-color: #f1c795;
   border-width: 2px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#contact .btn:hover {
+  color: #472207;
+  background-color: #f1c795;
+  font-size: 1.5rem;
+  border-color: #c08448;
+  border-width: 2px;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -251,7 +270,7 @@ hr {
   background-color: #c08448;
   border-color: #472207;
   border-width: 2px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
