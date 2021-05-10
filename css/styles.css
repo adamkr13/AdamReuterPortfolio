@@ -131,6 +131,11 @@ hr {
   font-size: 6rem;
 }
 
+#about p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 .dark {
   background-image: url("../assets/darkWoodSeamless.jpg");
   background-size: cover;
