@@ -210,7 +210,16 @@ hr {
 }
 
 #contact .row {
-  margin: 0 6em;
+  margin: 0 5em;
+}
+
+#contact .row-item {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#contact .row-item p {
+  margin-bottom: 0;
 }
 
 #contact .btn {
@@ -221,6 +230,7 @@ hr {
   border-width: 2px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  padding-bottom: 0;  
 }
 
 #contact .btn:hover {
@@ -232,6 +242,8 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+
+
 
 .copyright {
   font-family: "Berkshire Swash", cursive;
@@ -266,7 +278,7 @@ hr {
   border-color: #c08448;
   border-width: 2px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 700;  
 }
 
 #contact-form .btn:hover {
